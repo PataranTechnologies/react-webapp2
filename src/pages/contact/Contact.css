@@ -1,0 +1,25 @@
+.contactImage
+{
+    width: 100%;
+    height: 300px;
+}
+
+
+.gitStyle
+{
+    background-color: dimgray;
+    color: floralwhite;
+}
+
+.gitCols
+{
+    text-align: center;
+    margin: 10px;
+}
+
+
+.map-div
+{
+    height: 250px;
+    width: 100%;
+}
