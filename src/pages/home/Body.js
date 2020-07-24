@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Intros from './Intros'
 import MotionIntro from './MotionIntro';
 import Values from './Values';
+import './Home.css'
 class Body extends Component {
     state = {  }
     render() { 

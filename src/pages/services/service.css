@@ -1,0 +1,37 @@
+.serviceimagesize
+{
+    width: 250px;
+    height: 200px;
+}
+
+.marginsides
+{
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.servicesSection
+{
+    text-align: center;
+    background-color: gray;
+}
+
+.serviceImage
+{
+    height: 350px;
+    width: 100%;
+}
+
+.hfont
+{
+font-weight: bold;
+font-size: 40px;
+color: black;
+margin-top: 0px;
+}
+.pfont
+{
+font-weight: bold;
+font-size: 20px;
+color: white;
+}

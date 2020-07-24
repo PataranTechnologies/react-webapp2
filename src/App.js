@@ -5,6 +5,7 @@ import { Route, Switch, Redirect ,BrowserRouter} from "react-router-dom";
 import Home from  './pages/home/Home'
 import Contact from './pages/contact/Contact'
 import Projects from './pages/projects/Projects';
+import Services from './pages/services/Services';
 class App extends Component {
   render() {
     return (
@@ -20,7 +21,7 @@ class App extends Component {
       <Projects id={3} />
       </Route>
       <Route path="/service">
-      <Home id={2} />
+      <Services id={2} />
       </Route>
       <Route path="/contact">
       <Contact id={5}/>

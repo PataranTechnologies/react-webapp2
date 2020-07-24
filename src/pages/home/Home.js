@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import NavBar from '../NavBar'
 import Body from './Body';
-import './Home.css'
+
 
 import Footer from '../Footer';
 class Home extends Component {

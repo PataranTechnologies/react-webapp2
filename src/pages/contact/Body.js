@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import GetInTouch from './GetInTouch';
+import './Contact.css'
 class Body extends Component {
     state = {  }
     render() { 

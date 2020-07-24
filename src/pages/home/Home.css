@@ -81,6 +81,8 @@ background-size: 100% 100%;
 
 }
 
+
+
 .secondIntroBody
 {
     opacity: 0.7; 
@@ -100,12 +102,7 @@ background-size: 100% 100%;
     font-size: 18px;
 
 }
-.nav_fixed
-{
-    position:fixed;
-    bottom: 0; /* Position the navbar at the bottom of the page */
-    width: 100%;
-}
+
 .introcent
 {
     color: black;

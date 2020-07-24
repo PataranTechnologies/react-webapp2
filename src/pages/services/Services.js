@@ -1,19 +1,20 @@
 import React, { Component } from 'react';
-import NavBar from '../NavBar';
 import Footer from '../Footer';
+import NavBar from '../NavBar';
 import Body from './Body'
 
-class Projects extends Component {
+class Services extends Component {
     state = {  }
     render() { 
-        return (
+        return ( 
+
             <React.Fragment>
                 <NavBar id={this.props.id} />
                 <Body />
                 <Footer />
-                </React.Fragment>
-          );
+            </React.Fragment>
+         );
     }
 }
  
-export default Projects;
+export default Services;

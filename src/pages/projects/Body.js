@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import ProjectSlider from './ProjectSlider';
 import ProjectsIcons from './ProjectsIcons';
-
+import './Projects.css'
+import Technologies from './Technologies';
 class Body extends Component {
     state = {  }
     render() { 
@@ -11,7 +12,7 @@ class Body extends Component {
             
                <ProjectSlider />
                <ProjectsIcons />
-              
+                 <Technologies />
         
             </React.Fragment>
 
