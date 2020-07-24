@@ -8,12 +8,13 @@
 .projectsIcons
 {
     text-align: center;
+    background-color: gray;
 }
 
 .marginsides
 {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 .iconmarg
@@ -24,6 +25,6 @@
 .ProjectImgSize
 {
 
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 200px;
 }
