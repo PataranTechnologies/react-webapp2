@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {Navbar} from 'react-bootstrap'
-import { withRouter,Redirect } from "react-router-dom";
+import { withRouter} from "react-router-dom";
 import './style.css'
 class NavBar extends Component {
    
@@ -40,7 +40,7 @@ class NavBar extends Component {
   <ul className="navbar-nav ml-auto " >
 
         {this.state.icons.map(navItem=>(
-             <li className='nav-link' id={navItem.id===this.state.activeid ? 'red' :'hov'}>
+             <li className='nav-link' id={navItem.id===this.state.activeid ? 'red' :'hov'} key={navItem.id}>
             <a id='navFont' role="button" onClick={()=>this.handleClick(navItem.id,navItem.href)}>
              {navItem.name}
              </a>

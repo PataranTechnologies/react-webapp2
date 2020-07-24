@@ -22,17 +22,19 @@ class GetInTouch extends Component {
 
        <form >
         <ul >
-        <li  ><label >Name *</label> <div  ><input id="field1" required=""  name="Name"  placeholder="Name *"  value="" type="text" /></div>
+        <li   ><label  >Name *</label> <div   ><input id="field1" required=""  name="Name"  placeholder="Name *"  value="" type="text" /></div>
         </li>
 
         <li ><label >Email *</label><div ><input id="field2" required=""  name="Email"  placeholder="Email *"  value="" type="text" /></div></li>
-        <li ><label >Phone</label><div ><input id="field3"  name="Phone" class="" placeholder="Phone"  value="" type="tel" /></div></li>
+        <li ><label >Phone</label><div ><input id="field3"  name="Phone" placeholder="Phone"  value="" type="tel" /></div></li>
         <li ><label >Message</label><div ><textarea name="Message"  placeholder="Message" data-aid="messageField" id="comp-js44u14o6fieldMessage"></textarea></div></li>
-        <li ><div ><span  id="comp-js44u14o6notifications"></span><button type="submit" id="comp-js44u14o6submit" >Send</button></div>
-        </li>
+        <div ><span  id="comp-js44u14o6notifications"></span><button type="submit" id="comp-js44u14o6submit" >Send</button></div>
+       
 
         </ul>
         </form>
+
+       
 
        </div>
     </div>

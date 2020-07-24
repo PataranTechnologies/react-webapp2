@@ -102,11 +102,47 @@ background-size: 100% 100%;
     font-size: 18px;
 
 }
-
+.marginsidesTest
+{
+margin-left: 250px;
+margin-right: 200px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.testinner
+{
+   
+}
+.testimage
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.TestInfo
+{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
 .introcent
 {
     color: black;
     opacity: 1;
+}
+.TestInfocolor
+{
+    color: #32a0fb;
+}
+.test
+{
+    font-weight: bold;
+  margin-top: 20px;   
+    text-align: center;
+}
+.mainTest
+{
+background-color: black;
+color:white;
 }
 .fa {
     padding: 20px;
@@ -144,6 +180,13 @@ background-size: 100% 100%;
     color: white;
   }
 
+
+  .valuesBox
+  {
+      width: 280px;
+      height: auto;
+      margin-top: 10px;
+  }
 
 
 

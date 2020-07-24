@@ -3,6 +3,7 @@ import Intros from './Intros'
 import MotionIntro from './MotionIntro';
 import Values from './Values';
 import './Home.css'
+import Testimonies from './Testimonies';
 class Body extends Component {
     state = {  }
     render() { 
@@ -11,6 +12,7 @@ class Body extends Component {
             <MotionIntro />
             <Intros />
             <Values />
+            <Testimonies />
             </React.Fragment>
         );
     }

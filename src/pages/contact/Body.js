@@ -7,7 +7,7 @@ class Body extends Component {
         return (
 
             <React.Fragment>
-             <img src={'https://www.vwfs.co.in/content/dam/bluelabel/valid/www-vwfs-co-in/images/Contact%20us-%202-1%20-%203000%20px%20X%201500px.jpg.xxl.jpg'} className='contactImage' />
+             <img src={'https://www.vwfs.co.in/content/dam/bluelabel/valid/www-vwfs-co-in/images/Contact%20us-%202-1%20-%203000%20px%20X%201500px.jpg.xxl.jpg'} className='contactImage' alt='' />
 
                <GetInTouch />
 
